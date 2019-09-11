@@ -6,6 +6,7 @@ import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 
 import { connect } from 'react-redux';
+import { removeFeature, buyItem } from './actions'; 
 
 const App = () => {
   
@@ -30,4 +31,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps, {});
+export default connect(mapStateToProps, { removeFeature, buyItem });
