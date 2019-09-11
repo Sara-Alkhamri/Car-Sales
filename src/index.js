@@ -7,7 +7,7 @@ import 'bulma/css/bulma.css';
 import './styles.scss';
 
 //create const for the store
-const store = createStore();
+const store = createStore(reducer);
 
 
 const rootElement = document.getElementById('root');
