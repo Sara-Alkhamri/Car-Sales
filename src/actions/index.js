@@ -8,7 +8,6 @@ export const removeFeature = item => {
     };
   };
 
-
 export const BUY_ITEM = 'BUY_ITEM';  
 export const buyItem = item => {
     // dipsatch an action here to add an item
