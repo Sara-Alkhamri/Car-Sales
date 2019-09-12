@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
 import { removeFeature, buyItem } from './actions'; 
 
 const App = (props) => {
-  console.log(props);
+  // console.log(props);
   const {state, removeFeature, buyItem} = props;
 
   return (
@@ -27,6 +27,7 @@ const App = (props) => {
 };
 
 const mapStateToProps = state => {
+  // console.log(state)
   return {
     state
   }
